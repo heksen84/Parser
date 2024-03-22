@@ -149,8 +149,8 @@ class HTMLElement {
 
 $url = 'https://kolesa.kz';
 
-$selector = '.action-item'; // Example selector to choose elements by class
-$attribute = 'title'; // Example attribute to extract
+$selector = 'a'; // Example selector to choose elements by class
+$attribute = 'href'; // Example attribute to extract
 
 $htmlParser = new HTMLParser();
 $htmlParser->parseURL($url, $selector, $attribute);
