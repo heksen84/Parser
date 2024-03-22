@@ -1,6 +1,6 @@
 <?php
 
-require 'vendor/autoload.php'; // Include the Guzzle library
+require '../vendor/autoload.php'; // Include the Guzzle library
 
 use GuzzleHttp\Client;
 
